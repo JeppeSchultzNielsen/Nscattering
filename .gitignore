@@ -1,0 +1,24 @@
+/Al2001.root
+/.idea/.name
+/match/2001N15m.root
+/2001N15.root
+/match/Al2001m.root
+/Al3000.root
+/Al2500.root
+/match/Al2001m.rootlio.root
+/lio.root
+/match/Al2500m.root
+/match/Al3000m.root
+/lio.root
+/small.root
+/file.root
+/analyzed/2001a.root
+/analyzed/2500a.root
+/analyzed/3000a.root
+/peakHists/2001.root
+/peakHists/2500.root
+/peakHists/3000.root
+/peakHists/200115.root
+
+# Project exclude paths
+/cmake-build-debug/

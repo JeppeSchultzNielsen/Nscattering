@@ -1,0 +1,104 @@
+{
+  "name" : "Basement2022",
+  "detectors" : [
+    {
+      "name" : "Det1",
+      "file" : "AUW1_60_01.json",
+      "calibration" : "Det1.cal",
+      "reverseFront" : true,
+      "reverseBack" : true,
+      "position" : {"x":"31 mm", "y":"0 mm", "z":"0 mm"},
+      "normal" : {"x":"-1 mm", "y":"0 mm", "z":"0 mm"},
+      "orientation" : {"x":"0 mm", "y":"-1 mm", "z":"0 mm"},
+      "frontMapping" : {
+        "prefix" : "DET1F",
+        "multiplicity" : "",
+        "segment" : "I",
+        "adc" : "_E",
+        "tdc" : "_T"
+      },
+      "backMapping" : {
+        "prefix" : "DET1B",
+        "multiplicity" : "",
+        "segment" : "I",
+        "adc" : "_E",
+        "tdc" : "_T"
+      }
+    },
+    {
+      "name" : "Det2",
+      "file" : "AUW1_1000_00.json",
+      "calibration" : "Det2.cal",
+      "reverseFront" : true,
+      "reverseBack" : true,
+      "position" : {"x":"-32 mm", "y":"0 mm", "z":"0 mm"},
+      "normal" : {"x":"1 mm", "y":"0 mm", "z":"0 mm"},
+      "orientation" : {"x":"0 mm", "y":"-1 mm", "z":"0 mm"},
+      "frontMapping" : {
+        "prefix" : "DET2F",
+        "multiplicity" : "",
+        "segment" : "I",
+        "adc" : "_E",
+        "tdc" : "_T"
+      },
+      "backMapping" : {
+        "prefix" : "DET2B",
+        "multiplicity" : "",
+        "segment" : "I",
+        "adc" : "_E",
+        "tdc" : "_T"
+      }
+    },
+{
+      "name" : "SU",
+      "file" : "AUS3_1000_00.json",
+      "calibration" : "SU.cal",
+      "position" : {"x":"0 mm", "y":"0 mm", "z":"-43 mm"},
+      "normal" : {"x":"0 mm", "y":"0 mm", "z":"1 mm"},
+      "orientation" : {"x":"1 mm", "y":"0 mm", "z":"0 mm"},
+      "frontMapping" : {
+        "prefix" : "SU_S",
+        "multiplicity" : "",
+        "segment" : "I",
+        "adc" : "_E",
+	    "tdc" : "-DEAD-"
+      },
+      "backMapping" : {
+        "prefix" : "SU_R",
+        "multiplicity" : "",
+        "segment" : "I",
+        "adc" : "_E",
+	    "tdc" : "_T"
+      }
+    },
+{
+      "name" : "Pad1",
+      "file" : "AUPAD_1500_01.json",
+      "position" : {"x":"32 mm", "y":"1.85393 mm", "z":"0.396043 mm"},
+      "normal" : {"x":"-1 mm", "y":"0 mm", "z":"0 mm"},
+      "orientation" : {"x":"0 mm", "y":"1 mm", "z":"0 mm"},
+      "mapping" : {
+        "adc" : "PAD1E",
+        "tdc" : "PAD1T"
+      }
+    }, 
+{
+      "name" : "Pad2",
+      "file" : "AUPAD_1500_02.json",
+      "position" : {"x":"-33 mm", "y":"2.23969 mm", "z":"-0.466021 mm"},
+      "normal" : {"x":"1 mm", "y":"0 mm", "z":"0 mm"},
+      "orientation" : {"x":"0 mm", "y":"1 mm", "z":"0 mm"},
+      "mapping" : {
+        "adc" : "PAD2E",
+        "tdc" : "PAD2T"
+      }
+    }
+  ],
+  "#signals" : [
+    "CLOCK",
+    "CHARGE",
+    "ACCEPTED",
+    "TOTAL"
+  ]
+}
+
